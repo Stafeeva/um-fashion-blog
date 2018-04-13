@@ -12,6 +12,14 @@ const Header = () => (
     <Link href="/about">
       <a style={linkStyle}>About</a>
     </Link>
+    <style jsx>{`
+      a {
+        text-decoration: none;
+        font-family: "Avenir";
+        font-size: 20px;
+        padding-right: 10px;
+      }
+    `}</style>
   </div>
 )
 
